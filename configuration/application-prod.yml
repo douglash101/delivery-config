@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: delivery-system
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+delivery-system:
+  value: "VALOR - PROD"
+  default-value: "VALOR DEFAULT - PROD"
